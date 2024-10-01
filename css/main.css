@@ -1,0 +1,17 @@
+main section article p{
+    display: inline;
+    font-size: 18px;
+}
+
+main section h2{
+    font-size: 24px;
+}
+
+
+main section article h3{
+    font-size: 16px;
+}
+
+.descuento{
+    font-size: 16px;
+}

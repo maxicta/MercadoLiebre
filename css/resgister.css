@@ -1,0 +1,65 @@
+body{
+    background-color: #ebebeb;
+}
+
+.datos{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    margin-top: 2vh;
+    padding: 1em;
+    border-radius: 5px;
+    border: none;
+}
+
+.perfil{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    margin-bottom: 2vh;
+}
+
+#comprar{
+    margin: 0;
+}
+#Vender{
+    margin: 0;
+}
+
+.categorias{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin-bottom: 5vh;
+}
+
+.categorias input{
+    margin: 0;
+    display: inline;
+}
+
+.boton2 input{
+    border-radius: 5px;
+    color: #ebebeb;
+    height: 4vh;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    width: 300vw;
+    background-color: #1259c3;
+    padding: 2px;
+}
+
+.boton2{
+    display: flex;
+    justify-items: center;
+}
+
+.password{
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+    flex-wrap: wrap;
+}
+

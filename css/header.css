@@ -1,0 +1,37 @@
+header{
+    background-color: #EAC926;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    text-align: center;
+}
+
+#logo{
+    height: 2em;
+    
+}
+
+.burger-menu{
+    display: inline;
+    padding: .5em;
+    border-radius: 15%;
+    background-color: #1259c3;
+    
+}
+
+#burger{
+    color: #ebebeb;
+}
+
+/*
+Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a;
+*/
