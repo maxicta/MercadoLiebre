@@ -7,6 +7,10 @@ body{
     flex-direction: column;
 }
 
+.datos label{
+    margin-top: 15px;
+}
+
 input{
     margin-top: 2vh;
     padding: 1em;
@@ -30,14 +34,21 @@ input{
 
 .categorias{
     display: flex;
-    flex-direction: column;
-    justify-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
     margin-bottom: 5vh;
 }
 
 .categorias input{
     margin: 0;
     display: inline;
+    width: 40vw;
+    margin-bottom: 10px;
+}
+
+.categorias label{
+    width: 40vw;
 }
 
 .boton2 input{
@@ -49,17 +60,25 @@ input{
     width: 300vw;
     background-color: #1259c3;
     padding: 2px;
+    width: 30vw;
 }
 
 .boton2{
     display: flex;
-    justify-items: center;
+    justify-content: space-evenly;
 }
 
 .password{
     display: flex;
-    justify-content: center;
-    margin-top: 2vh;
+    flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2vh;
+    width: 30vw;
 }
 
+
+main{
+    padding: 2em;
+    margin-bottom: 0;
+}

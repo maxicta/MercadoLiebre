@@ -1,5 +1,6 @@
 header{
     background-color: #EAC926;
+    width: 100%;
 }
 
 a{
@@ -16,15 +17,20 @@ p{
 }
 
 .burger-menu{
-    display: inline;
-    padding: .5em;
-    border-radius: 15%;
-    background-color: #1259c3;
+    display: flex;
+    justify-content: center;
+    
+    
+    
     
 }
 
 #burger{
     color: #ebebeb;
+    background-color: #1259c3;
+    padding: .5em;
+    border-radius: 15%;
+    margin-bottom: 2vh;
 }
 
 /*
