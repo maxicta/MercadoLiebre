@@ -1,0 +1,28 @@
+main section article p{
+    display: inline;
+    font-size: 18px;
+    
+}
+
+main section h2{
+    font-size: 24px;
+
+}
+
+
+main section article h3{
+    font-size: 16px;
+    display: none;
+}
+
+.descuento{
+    font-size: 16px;
+    color: #39b54a;
+}
+
+main{
+    margin: 0;
+    background-color: #ebebeb;
+    width: 90%;
+    
+}
