@@ -2,7 +2,10 @@ main{
     background-color: #ebebeb;
     margin-bottom: 5vh;
     padding-top: 2vh;
+    text-align: center;
 }
+
+
 
 .sing{
     display: flex;

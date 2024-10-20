@@ -1,3 +1,5 @@
+
+
 main section article p{
     display: inline;
     font-size: 18px;
@@ -14,11 +16,32 @@ main section article h3{
     font-size: 16px;
     display: none;
 }
+main section article img{
+    border-bottom: solid 1px #ebebeb;
+}
 
 .descuento{
     font-size: 16px;
     color: #39b54a;
 }
+
+.envio{
+    color: #39b54a;
+    font-size: 15px;
+    border: 1px solid #39b54a;
+    width: 25px;
+    height: 25px;
+    border-radius: 40px;
+    margin-left: 10px;
+    position: relative;
+}
+
+#camion{
+    position: relative;
+    top: 4px;
+    left: 3px;
+}
+
 
 main{
     margin: 0;
