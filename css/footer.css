@@ -1,0 +1,21 @@
+
+
+footer div section{
+    text-align: center;
+}
+
+footer i{
+    color: #1259c3;
+}
+
+.copy{
+    text-align: start;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+footer{
+    background-color: #ffffff;
+    padding: 0;
+    width: 100%;
+}
