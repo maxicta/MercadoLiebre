@@ -26,14 +26,20 @@ main section article img{
 }
 
 .envio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-end;
     color: #39b54a;
     font-size: 15px;
     border: 1px solid #39b54a;
     width: 25px;
     height: 25px;
     border-radius: 40px;
-    margin-left: 10px;
+    margin-right: 20px;
     position: relative;
+    flex-wrap: nowrap;
+    bottom: 15px;
 }
 
 #camion{
@@ -48,4 +54,8 @@ main{
     background-color: #ebebeb;
     width: 90%;
     
+}
+
+.ultimos-articulos{
+
 }

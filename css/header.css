@@ -1,5 +1,4 @@
-header{
-    
+header{    
     background-color: #EAC926;
     width: 100%;
 }
@@ -10,11 +9,28 @@ a{
 
 p{
     text-align: center;
+    padding: 10px;
+    font-size: 13px;
 }
 
 #logo{
-    height: 2em;
+    display: inline-flex;
+    width: 50%;
     
+}
+
+.buscador{
+    display: inline-flex;
+    width: 50%;
+    max-height: 35px;
+    
+}
+
+.header1{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+
 }
 
 .burger-menu{
@@ -29,6 +45,8 @@ p{
     border-radius: 15%;
     margin-bottom: 2vh;
 }
+
+
 
 /*
 Amarillo: #EAC926;
