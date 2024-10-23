@@ -14,13 +14,13 @@ main section h2{
 
 main section article h3{
     font-size: 16px;
-    display: none;
-    transition:  0.5s;
+    color: white;
+    transition-property: color 0.5s ease;
 }
 
 main section article h3:hover{
-    display: block;
-    font-size: 16px;
+    color: black;
+    /* font-size: 16px; */
 }
 
 main section article img{
@@ -33,7 +33,7 @@ main section article img{
 }
 
 .envio{
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     align-self: flex-end;
@@ -47,12 +47,23 @@ main section article img{
     position: relative;
     flex-wrap: nowrap;
     bottom: 15px;
+    
 }
 
 #camion{
     position: relative;
     top: 4px;
     left: 3px;
+}
+
+.fa-truck{
+    transition: transform 0.5s ease;
+    
+}
+
+
+.fa-truck:hover{
+    transform: rotate(-90deg);
 }
 
 
@@ -63,6 +74,3 @@ main{
     
 }
 
-.ultimos-articulos{
-
-}
